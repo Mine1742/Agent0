@@ -1,0 +1,125 @@
+[
+  {
+    "goal": "How many unread emails are in my inbox?",
+    "timestamp": "2025-12-26T07:34:04.898086",
+    "steps": [
+      {
+        "tool": "query_gmail",
+        "params": {
+          "query": "in:inbox is:unread in:inbox",
+          "count_all": true
+        },
+        "result": {
+          "ok": true,
+          "query": "in:inbox is:unread in:inbox",
+          "count": 8541,
+          "summary": "Found 8541 emails matching query (accurate count)"
+        }
+      }
+    ],
+    "result": null,
+    "error": "'charmap' codec can't encode character '\\u2713' in position 14: character maps to <undefined>",
+    "suggested_tools": []
+  },
+  {
+    "goal": "What events do I have today?",
+    "timestamp": "2025-12-26T07:34:19.191762",
+    "steps": [
+      {
+        "tool": "query_events",
+        "params": {
+          "calendar_id": "primary",
+          "time_min": "2025-12-26",
+          "time_max": "2025-12-27"
+        },
+        "result": {
+          "ok": true,
+          "calendar_id": "primary",
+          "returned": 4,
+          "summary": "Found 4 events total",
+          "events": [
+            {
+              "id": "1asfqkc6ecg2sfbeth3o8l6qok_20251226",
+              "summary": "Jason Coy's birthday",
+              "start": "2025-12-26",
+              "end": "2025-12-27",
+              "description": "",
+              "location": ""
+            },
+            {
+              "id": "6oqj4cr3cgp36b9jc8s3eb9k6thj4bb26koj0b9g64s66cr360pj4e9m64_20251226T130000Z",
+              "summary": "AJ work",
+              "start": "2025-12-26T08:00:00-05:00",
+              "end": "2025-12-26T16:00:00-05:00",
+              "description": "",
+              "location": ""
+            },
+            {
+              "id": "5hucm9bjbsc5brj2jupi2uo9gg",
+              "summary": "AJ Work",
+              "start": "2025-12-26T19:00:00-05:00",
+              "end": "2025-12-26T21:00:00-05:00",
+              "description": "",
+              "location": ""
+            },
+            {
+              "id": "1tr8gs2dic3hjh6lsimba7i0cs",
+              "summary": "AJ Work",
+              "start": "2025-12-27T09:00:00-05:00",
+              "end": "2025-12-27T15:00:00-05:00",
+              "description": "",
+              "location": ""
+            }
+          ]
+        }
+      }
+    ],
+    "result": null,
+    "error": "'charmap' codec can't encode character '\\u2713' in position 14: character maps to <undefined>",
+    "suggested_tools": []
+  },
+  {
+    "goal": "How many emails from caitrinconroy@gmail.com in my inbox?",
+    "timestamp": "2025-12-26T07:34:21.348845",
+    "steps": [
+      {
+        "tool": "query_gmail",
+        "params": {
+          "query": "from:caitrinconroy@gmail.com in:inbox",
+          "count_all": true
+        },
+        "result": {
+          "ok": true,
+          "query": "from:caitrinconroy@gmail.com in:inbox",
+          "count": 163,
+          "summary": "Found 163 emails matching query (accurate count)"
+        }
+      }
+    ],
+    "result": null,
+    "error": "'charmap' codec can't encode character '\\u2713' in position 14: character maps to <undefined>",
+    "suggested_tools": []
+  },
+  {
+    "goal": "How many days does AJ work this week?",
+    "timestamp": "2025-12-26T07:34:22.074307",
+    "steps": [
+      {
+        "tool": "query_gmail",
+        "params": {
+          "query": "",
+          "count_all": true
+        },
+        "result": {
+          "ok": true,
+          "query": "",
+          "count": 20396,
+          "summary": "Found 20396 emails matching query (accurate count)"
+        }
+      }
+    ],
+    "result": null,
+    "error": "'charmap' codec can't encode character '\\u2713' in position 14: character maps to <undefined>",
+    "suggested_tools": []
+  }
+]
