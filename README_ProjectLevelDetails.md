@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AI Agent Template (Framework-Free)
 
 This repository provides a minimal, extensible template for building and deploying AI agents **without third-party agent frameworks**.  
@@ -228,3 +229,7 @@ print(resp)
 This project provides a lightweight wrapper at `tools/claude_client.py` that handles basic Anthropic SDK usage.
 
 
+=======
+# Agent0
+First go at creating tools and agents 
+>>>>>>> c3d4665c2a2e9eb40f758e9f3e9a5ac0b664adf1
